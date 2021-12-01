@@ -3,3 +3,10 @@ Hola mi nombre es Cesar A.
 .....
 
 navidad
+
+git checkout -b [nombre de la nueva rama] -> rama local
+git checkout [nombre de la rama a regresar]
+git push origin [nombre de la rama para subir a github]
+
+
+rama cesar_dev -> main
