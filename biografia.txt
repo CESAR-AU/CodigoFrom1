@@ -10,3 +10,7 @@ git push origin [nombre de la rama para subir a github]
 
 
 rama cesar_dev -> main
+
+FUSIONAR CODIGO de una rama inferior a main
+1 volver a la rama main git checkout main
+2 git merge [nombre de la rama inferior a fusionar]
