@@ -14,4 +14,4 @@ rama cesar_dev -> main
 FUSIONAR CODIGO de una rama inferior a main
 1 volver a la rama main git checkout main
 2 git merge [nombre de la rama inferior a fusionar]
-3 git push origin main
+3 git push origin main -> para migrar a otras ramas
