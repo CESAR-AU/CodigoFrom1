@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multimedia</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/">Inicio</a></li>
+                <li><a href="./dia3.html">Etiquetas semantcas</a></li>
+                <li><a href="./dia3_listas.html">Listas</a></li>
+                <li><a href="./dia3_multimedia.html">Multimedia</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <div>
+            <h1>Videos</h1>
+            <video controls autoplay mute loop height="100">
+                <source src="./videos/rabbit320.webm">
+            </video>
+
+            <!-- Iframe puede contener cualquier tipo de archivo -->
+            <iframe 
+                width="880" 
+                height="250" 
+                src="https://www.youtube.com/embed/knxoF5xiBRU"
+                title="YouTube video player" 
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+
+            <h2>Iframe</h2>
+            <iframe 
+                width="100%" 
+                height="200" 
+                title="YouTube video player" 
+                src="./videos/rabbit320.webm"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+
+            <iframe 
+                width="100%" 
+                height="300" 
+                title="Pdf" 
+                src="./files/FullStack.pdf"
+                frameborder="0"
+                allowfullscreen>
+            </iframe>
+
+        </div>
+
+        <div>
+            <h2>Audios</h2>
+            <audio controls autoplay>
+                <source src="./files/viper.mp3">
+            </audio>
+
+            <audio controls src="./files/viper.mp3"> </audio>
+        </div>
+    </section>
+</body>
+
+</html>
