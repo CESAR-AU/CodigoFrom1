@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h1 ><u>TAREA</u></h1>
+    <div>
+        <p><strong>Los campos marcados con * son de inserción obligatoria</strong></p>
+        <form action="">
+            <div >
+                <table>
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody >
+                        <tr  >
+                            <td align="right"><label for="asunto">Asunto:</label></td>
+                            <td>
+                                <input id="asunto" name="asunto" type="text">
+                            </td>
+                        </tr>
+
+                        <tr  >
+                            <td align="right"><label for="p_apellido">* Primer Apellido:</label></td>
+                            <td><input id="p_apellido" name="p_apellido" type="text"></td>
+                        </tr>
+                        <tr  >
+                            <td align="right"><label for="s_apellido">Segundo Apellido:</label></td>
+                            <td><input id="s_apellido" name="s_apellido" type="text"></td>
+                        </tr>
+                        <tr  >
+                            <td align="right"><label for="nombre">* Nombre:</label></td>
+                            <td><input id="nombre" name="nombre" type="text"><br></td>
+                        </tr>
+                        <tr  >
+                            <td align="right"><label for="dni">DNI / Pasaporte / NIE:</label></td>
+                            <td><input id="dni" name="dni" type="text"><br></td>
+                        </tr>
+                        <tr  >
+                            <td align="right"><label for="correo">* Correo electrónico:</label></td>
+                            <td><input id="correo" name="correo" type="text"></td>
+                        </tr>
+                        <tr  >
+                            <td align="right"><label for="telefono">Teléfono:</label></td>
+                            <td><input id="telefono" name="telefono" type="number"><br></td>
+                        </tr>
+                        <tr  >
+                            <td align="right"><label for="sobre_que">¿Sobre qué?:</label></td>
+                            <td>
+                                <select name="sobre_que" id="sobre_que">
+                                    <option value="0">Sobre 1</option>
+                                    <option value="1">Sobre 2</option>
+                                    <option value="2">Sobre 3</option>
+                                    <option value="3">Sobre 4</option>
+                                </select>
+                            </td>
+                        </tr>
+
+                        <tr  >
+                            <td align="right"><label for="sobre_que">¿Qué va a escribir?:</label></td>
+                            <td>
+                                <select name="sobre_que" id="sobre_que">
+                                    <option value="0">escribir 1</option>
+                                    <option value="1">escribir 2</option>
+                                    <option value="2">escribir 3</option>
+                                    <option value="3">escribir 4</option>
+                                </select>
+                            </td>
+                        </tr>
+
+                        <tr  >
+                            <td align="right"><label for="">Texto del escrito</label></td>
+                            <td>
+                                <textarea placeholder="Texto del escrito" name="escrito" id="escrito" cols="30" rows="10"> 
+                    
+                                </textarea>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>          
+
+                <p><strong>Los datos personales facilitados son suceptibles ...</strong></p>
+
+                <button style="width: 60%;" type="submit">ENVIAR</button>
+            </div>
+
+        </form>
+    </div>
+</body>
+
+</html>

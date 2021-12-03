@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dia 4 - Fomularios</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h1><u>Formularios</u></h1>
+    <!-- Los formulario es html son muy comunes los vamos a encontrar en toda paga web -->
+    <!-- Form de login -->
+    <!-- Form de registro -->
+    <!-- Form de contacto -->
+    <!-- Form de news -->
+    <!-- Un formulario esta compuesto por  -->
+    <!-- input (cajas de text, numero, fecha, color, email, password) -->
+    <!-- botones para poder enviar la info -->
+    <!-- select (son menus desplegables) -->
+    <!-- Todo esto esta envuelto en un formulario form -->
+    <!-- el form tiene atributos por ejemplo -->
+    <!-- action: es a donde se va a enviar la info (es to lo veremos en back) -->
+    <!-- method: es la forma en la informacion sera enviada (javascript) -->
+    <form action="">
+        <div>
+            <fieldset>
+                <legend>Info</legend>
+                <h3>Imputs</h3>
+                <label for="nombre">Nombres</label>
+                <input id="nombre" type="text" placeholder="Nombres" value="Juan" name="nombre" required>
+                <label for="edad">Edad</label>
+                <input id="edad" type="number" placeholder="Edad" value="" name="edad">
+                <label for="fecha">Fecha</label>
+                <input id="fecha" type="date" placeholder="Fecha" value="" name="fecha">
+                <label for="hora">Hora</label>
+                <input id="hora" type="time" placeholder="Hora" value="" name="hora">
+                <label for="archivo">Archivo</label>
+                <input id="archivo" type="file" placeholder="Archivo" value="" name="archivo">
+                <label for="color">Hora</label>
+                <input id="color" type="color" placeholder="color" value="" name="color">
+                <label for="contra">Contraseña</label>
+                <input id="contra" type="password" placeholder="Contra" value="" name="contra" required>
+                <label for="correo">Correo</label>
+                <input id="correo" type="email" placeholder="correo" value="" name="correo">
+            </fieldset>           
+            
+        </div>
+
+        <div>
+            <h3>Radio Button</h3>
+            <label for="r_1">Rojo</label>
+            <input type="radio" name="option_color" id="r_1" value="rojo"> 
+            <label for="r_2">Verde</label>
+            <input type="radio" name="option_color" id="r_2" value="verde"> 
+            <label for="r_3">Azul</label>
+            <input type="radio" name="option_color" id="r_3" value="azul"> 
+            <h3>CheckBox</h3>
+            <input type="checkbox" name="curso" id="" value="js"> JS
+            <input type="checkbox" name="curso" id="" value="js"> PHP
+            <input type="checkbox" name="curso" id="" value="js"> Python
+        </div>
+
+        <div>
+            <h3>ComboBox</h3>
+            <select name="cursos_" id="">
+                <option value="js">JavaScript</option>
+                <option value="html" selected>HTML</option>
+                <option value="css">CSS</option>
+            </select>
+            <select name="pais" id="">
+                <option value="peru">Peru</option>
+                <option value="colombia" selected>Colombia</option>
+                <option value="chile">Chile</option>
+            </select>
+        </div>
+
+        <div>
+            <h3>TextArea</h3>
+            <textarea name="" id="" cols="30" rows="10">
+                sfd
+            </textarea>
+        </div>
+
+        <div>
+            <h3>Submit</h3>
+            <input type="submit">
+            <button type="submit">Enviar</button>
+        </div>
+    </form>
+</body>
+
+</html>
