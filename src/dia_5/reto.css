@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: hsl(217, 54%, 11%);
+  font-family: Outfit;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+#imagen {
+  width: 300px;
+  border-radius: 15px;
+}
+.targeta {
+  margin-top: 150px;
+  border-radius: 15px;
+  padding: 15px;
+  width: 300px;
+  background-color: hsl(216, 50%, 16%);
+  color: hsl(215, 51%, 70%);
+  font-weight: 300;
+}
+.titulo {
+  margin: 15px 0;
+  color: white;
+  font-weight: 600;
+  font-size: large;
+}
+.descripcion {
+  margin: 20px 0;
+  font-size: 15px;
+  font-weight: 200;
+}
+.contenedor {
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+}
+.contenedor div img {
+  margin-right: 10px;
+}
+.valor_eter {
+  display: flex;
+  padding-right: 0px 10px;
+  text-align: left;
+  font-weight: 600;
+  color: hsl(178, 100%, 50%);
+}
+.dias_eter {
+  display: flex;
+}
+hr {
+  color: hsl(215, 32%, 27%);
+  margin: 10px;
+}
+
+#foto_perfil {
+  width: 30px;
+  border: 2px solid hsl(215, 32%, 27%);
+  border-radius: 50px;
+}
+
+.autor {
+  display: flex;
+  align-items: center;
+}
+
+.autor div {
+  padding: 0px 10px;
+}
+.cita_autor {
+  font-size: 15px;
+}
+
+.cita_autor strong {
+  color: white;
+}
