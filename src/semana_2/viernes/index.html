@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLEXBOX</title>
+</head>
+
+<body>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        body{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .flex {
+            display: flex;
+            background: burlywood;
+            margin: 10px 0px;
+        }
+        .flex div {
+            padding: 5px;
+        }
+
+        .flex div:nth-child(odd) {
+            background: brown;
+        }
+
+        .flex div:nth-child(even) {
+            background: green;
+        }
+
+        .justify-start {
+            justify-content: flex-start;
+        }
+
+        .justify-c-center {
+            justify-content: center;
+        }
+
+        .justify-c-end {
+            justify-content: flex-end;
+        }
+
+        .justify-c-between {
+            justify-content: space-between;
+        }
+
+        .justify-c-around {
+            justify-content: space-around;
+        }
+
+        .justify-c-evenly {
+            justify-content: space-evenly;
+        }
+    </style>
+    <h2>JUSTIFY CONTENT START</h2>
+    <div class="flex justify-c-start">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+    </div>
+    <h2>JUSTIFY CONTENT CENTER</h2>
+    <div class="flex justify-c-center">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+    </div>
+    <h2>JUSTIFY CONTENT END</h2>
+    <div class="flex justify-c-end">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+    </div>
+    <h2>JUSTIFY CONTENT BETWEEN</h2>
+    <div class="flex justify-c-between">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+    </div>
+    <h2>JUSTIFY CONTENT AROUND</h2>
+    <div class="flex justify-c-around">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+    </div>
+    <h2>JUSTIFY CONTENT EVENLY</h2>
+    <div class="flex justify-c-evenly">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+    </div>
+</body>
+
+</html>

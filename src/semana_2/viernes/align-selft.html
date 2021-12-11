@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALIGN ITEMS</title>
+</head>
+
+<body>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        body{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .flex {
+            display: flex;
+            background: burlywood;
+            margin: 10px 0px;
+            height: 100px;
+        }
+        .flex div {
+            padding: 5px;
+        }
+
+        .flex div:nth-child(odd) {
+            background: brown;
+        }
+
+        .flex div:nth-child(even) {
+            background: green;
+        }
+
+        .flex div:nth-child(1){
+            align-self: center;
+        }
+        .flex div:nth-child(2){
+            align-self: end;
+        }
+        .flex div:nth-child(3){
+            align-self: stretch;
+        }
+        .flex div:nth-child(4){
+            align-self: start;
+        }
+        
+    </style>
+    <h2>ALIGN SELFT</h2>
+    <div class="flex">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+    </div>
+</body>
+
+</html>

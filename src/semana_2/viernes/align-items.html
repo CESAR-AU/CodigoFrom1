@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALIGN ITEMS</title>
+</head>
+
+<body>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        body{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .flex {
+            display: flex;
+            background: burlywood;
+            margin: 10px 0px;
+            height: 100px;
+        }
+        .flex div {
+            padding: 5px;
+        }
+
+        .flex div:nth-child(odd) {
+            background: brown;
+        }
+
+        .flex div:nth-child(even) {
+            background: green;
+        }
+
+        .align-start{
+            align-items: flex-start;
+        }
+        .align-end{
+            align-items: flex-end;
+        }
+        .align-center{
+            align-items: center;
+        }
+        .align-stretch{
+            align-items: stretch;
+        }
+        
+    </style>
+    <h2>JUSTIFY CONTENT START</h2>
+    <div class="flex align-start">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+    </div>
+    <h2>JUSTIFY CONTENT CENTER</h2>
+    <div class="flex align-end">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+    </div>
+    <h2>JUSTIFY CONTENT END</h2>
+    <div class="flex align-center">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+    </div>
+    <h2>JUSTIFY CONTENT BETWEEN</h2>
+    <div class="flex align-stretch">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALIGN CONTENT</title>
+</head>
+
+<body>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        body{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .flex {
+            display: flex;
+            background: burlywood;
+            margin: 10px 0px;
+            flex-wrap: wrap;
+            width: 300px;
+            height: 200px;
+        }
+        .flex div {
+            padding: 5px;
+            width: 100px;
+        }
+
+        .flex div:nth-child(odd) {
+            background: brown;
+        }
+
+        .flex div:nth-child(even) {
+            background: green;
+        }
+        .align-strat{
+            align-content: flex-start;
+        }
+        .align-end{
+            align-content: flex-end;
+        }
+        .align-between{
+            align-content: space-between;
+        }
+        .align-around{
+            align-content: space-around;
+        }
+        .align-center{
+            align-content: center;
+        }
+        .align-stretch{
+            align-content: stretch;
+        }
+
+    </style>
+    <h2>FLEX START</h2>
+    <div class="flex align-strat">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+    </div>
+    <h2>FLEX END</h2>
+    <div class="flex align-end">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+    </div>
+    <h2>FLEX BETWEEN</h2>
+    <div class="flex align-between">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+    </div>
+    <h2>FLEX AROUND</h2>
+    <div class="flex align-around">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+    </div>
+    <h2>CENTER</h2>
+    <div class="flex align-center">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+    </div>
+    <h2>STRETCH</h2>
+    <div class="flex align-stretch">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+    </div>
+</body>
+
+</html>
