@@ -134,6 +134,9 @@ a {
   background-color: #6d0ad3;
   color: #fff;
 }
+.about-me .download-cv:hover {
+  background-color: #00cf95;
+}
 .about-me article p {
   width: 400px;
   padding-left: 10px;
@@ -146,6 +149,9 @@ a {
 }
 .social-networks a {
   padding: 0 10px;
+}
+.social-networks a:hover {
+  color: #6e0ad3d7 !important;
 }
 .social-networks a:nth-child(1) {
   color: #1b69c4fa;
@@ -205,10 +211,20 @@ a {
   color: #fff;
   text-align: center;
 }
+.profile-social p a:hover,
+.profile-social .share:hover,
+.profile-social .twitter:hover{ 
+  background:#1f6cc5d3;
+}
 /*Down*/
 .down{
-  text-align: center;
   color: #00cf95;
+}
+.down a{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
 }
 .down i{
   padding: 0;
@@ -217,6 +233,10 @@ a {
 }
 .down p{
   margin: 0;
+}
+.down a:hover p,
+.down a:hover i{
+  color: #6e0ad3d7
 }
 /* Poratfolio */
 .briefcase section {
@@ -286,8 +306,7 @@ a {
   background: #00cf95;
   margin: 10px;
   border-radius: 5px;
-  border: 5px solid #d1ffa2
-  
+  border: 5px solid #d1ffa2;  
 }
 .services-container i{
   margin: 20px;
@@ -308,7 +327,8 @@ a {
 }
 .services-container div:hover{
   border-radius: 10px;
-  border: 5px solid #6d0ad3
+  border: 5px solid #6d0ad3;
+  cursor: hand;
 }
 .services-container div:hover i{
   color: #6d0ad3
