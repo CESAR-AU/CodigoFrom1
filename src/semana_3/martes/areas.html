@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS - GRID- AREAS</title>
+</head>
+
+<body>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body {
+            margin: 0;
+        }
+        .wrap {
+            display: grid;
+            /* background: blueviolet; */
+            grid-template-columns: 200px 1fr 200px;
+            grid-template-rows: 100px 1fr 100px;
+            /* enlasar */
+            grid-template-areas: 
+            "header header header"
+            "nav main aside"
+            "footer footer footer";
+            /* grid-gap: 20px;
+            padding: 20px; */
+            height: 100vh;
+        }
+        header{
+            grid-area: header;
+            background: darkkhaki;
+        }
+        nav{
+            grid-area: nav;
+            background: darkmagenta;
+        }
+        main{
+            grid-area: main;
+            background: darkolivegreen;
+        }
+        aside{
+            grid-area: aside;
+            background: darkorange;
+        }
+        footer{
+            grid-area: footer;
+            background: darkorchid;
+        }
+        /*  */
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            /* grid-template-rows: 100px 100px; */
+            grid-gap: 20px;
+            padding: 20px;
+        }
+        .grid div:nth-child(odd){
+            background: coral;
+        }
+        .grid div:nth-child(event){
+            background:darkkhaki;
+        }
+        img{
+            width: 100%;
+            display: block;
+        }
+    </style>
+    <div class="wrap">
+        <header>
+            header
+        </header>
+
+        <nav>
+            nav
+        </nav>
+        <main>
+            <div class="grid">
+                <div><img src="https://picsum.photos/id/1/200/300?random=1" alt=""></div>
+                <div><img src="https://picsum.photos/id/2/200/300?random=2" alt=""></div>
+                <div><img src="https://picsum.photos/id/3/200/300?random=3" alt=""></div>
+                <div><img src="https://picsum.photos/id/4/200/300?random=4" alt=""></div>
+                <div><img src="https://picsum.photos/id/5/200/300?random=5" alt=""></div>
+                <div><img src="https://picsum.photos/id/6/200/300?random=6" alt=""></div>
+                <div><img src="https://picsum.photos/id/7/200/300?random=7" alt=""></div>
+                <div><img src="https://picsum.photos/id/8/200/300?random=8" alt=""></div>
+            </div>
+        </main>
+        <aside>
+            aside
+        </aside>
+        <footer>
+            footer
+        </footer>
+    </div>
+</body>
+
+</html>
