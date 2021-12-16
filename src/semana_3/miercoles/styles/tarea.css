@@ -5,6 +5,10 @@
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
+h1 {
+    font-size: 32px;
+    font-weight: 600;
+  }
 h2 {
   font-size: 16px;
   font-weight: 600;
@@ -110,10 +114,17 @@ blockquote {
   .aside {
     background: #14d1a4;
   }
+  h1 {
+    font-size: 22px;
+    font-weight: 600;
+  }
 }
 @media (max-width: 600px) {
   .main .post article {
     width: 200px;
+  }
+  .h2{
+    font-size: 14px;
   }
 }
 @media (max-width: 440px) {
