@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FUNCIONES MULTIMEDIA</title>
+</head>
+<body>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body{
+            font-size: 12px;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: orange;
+        }
+        .wrapper{
+            padding: 20px;
+            background: orangered;
+            color: #fff;
+        }
+        h1{
+            margin-bottom: 20px;
+        }
+
+        figure{
+            margin-top: 20px;
+        }
+        /*  */
+        /* menir a 960px de pantalla */
+        @media(max-width: 960px){
+            /* .wrapper{
+                background: orchid;
+            } */
+        }
+        /* menor a 820px */
+        @media(max-width: 820px){
+            .wrapper{
+                background: orchid;
+            }
+        }
+        /* menor a 820px */
+        @media(min-width: 680px) and (max-width: 820px){
+            .wrapper{
+                background:palegreen;
+            }
+        }
+    </style>
+    <div class="wrapper">
+        <h1>TITULO RPINCIPAL</h1>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Totam amet atque magnam ducimus iusto voluptate architecto. 
+            Veniam, perspiciatis? Repudiandae nisi ratione, at aut 
+            pariatur accusantium distinctio asperiores ipsum itaque 
+            doloremque?
+        </p>
+        <figure>
+            <img src="https://picsum.photos/id/1/200/300?random=1" alt="">
+        </figure>
+    </div>
+</body>
+</html>

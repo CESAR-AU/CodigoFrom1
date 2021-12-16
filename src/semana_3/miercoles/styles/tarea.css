@@ -1,0 +1,134 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2 {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+p {
+  font-size: 12px;
+}
+
+blockquote {
+  font-size: 11px;
+  text-align: center;
+  padding: 3px;
+  margin: 5px 10px;
+  background: khaki;
+  border-radius: 20px;
+}
+
+.wrap {
+  display: grid;
+  /* background: blueviolet; */
+  grid-template-columns: 200px 1fr 200px;
+  grid-template-rows: 50px 1fr 50px;
+  /* enlasar */
+  grid-template-areas:
+    "header header header"
+    "aside main main"
+    "footer footer footer";
+  height: 100vh;
+}
+
+.header {
+  grid-area: header;
+  background: rgb(245, 59, 3);
+}
+
+.aside {
+  grid-area: aside;
+  background: rgb(163, 163, 163);
+}
+
+.main {
+  margin: 10px;
+  grid-area: main;
+  background: rgb(224, 224, 224);
+}
+.main section {
+  padding: 30px;
+}
+
+.main .post {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  /* grid-template-columns: repeat(4, 1fr); */
+  grid-gap: 20px;
+  justify-content: center;
+}
+
+.main .post article {
+  width: 250px;
+  padding: 8px;
+  background: rgb(255, 255, 255);
+  /* border: 1px solid rgb(165, 165, 165); */
+  border-radius: 5px;
+  box-shadow: 0 0 15px #b1b1b1;
+}
+.main .post article:hover {
+  border: 1px solid rgb(170, 170, 170);
+  box-shadow: 0 0 0px #999999;
+}
+
+.post img {
+  width: 100%;
+  border-radius: 5px;
+  /* box-shadow: 0 0 5px #363636; */
+}
+
+.post blockquote {
+  align-self: flex-end;
+}
+
+.footer {
+  grid-area: footer;
+  background: rgb(245, 59, 3);
+}
+
+@media (max-width: 880px) {
+  .wrap {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50px 100px 1fr 50px;
+    grid-template-areas:
+      "header"
+      "aside"
+      "main "
+      "footer";
+    height: 100vh;
+  }
+  .header {
+    background: #ffb800;
+  }
+  .aside {
+    background: #14d1a4;
+  }
+}
+@media (max-width: 600px) {
+  .main .post article {
+    width: 200px;
+  }
+}
+@media (max-width: 440px) {
+  .header {
+    background: #000aff;
+  }
+  .aside {
+    background: #7800d7;
+  }
+  .main .post article {
+    width: 100%;
+    padding: 8px;
+    background: rgb(255, 255, 255);
+    /* border: 1px solid rgb(165, 165, 165); */
+    border-radius: 5px;
+    box-shadow: 0 0 15px #b1b1b1;
+  }
+}
