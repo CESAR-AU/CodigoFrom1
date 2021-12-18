@@ -1,0 +1,15 @@
+$color-principal: #cdcdcd;
+$font-family-principal: "Arial";
+$font-family-titulos: "Verdana";
+
+body{
+    color:  $color-principal;
+}
+
+a{
+    font-family: $font-family-principal;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: $font-family-titulos;
+}
