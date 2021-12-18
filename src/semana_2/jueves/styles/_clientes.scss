@@ -1,0 +1,19 @@
+/********** Clientes*/
+.clientes {
+    padding: 40px;
+    background-color: #3f4e62;
+    color: #adff28;
+    text-align: center;
+  
+    section {
+      margin: 20px 0;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    figure {
+      margin: 0 10px;
+    }
+  }

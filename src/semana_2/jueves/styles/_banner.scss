@@ -1,0 +1,29 @@
+.banner {
+  height: 1px;
+  position: relative;
+
+  img {
+    width: 100%;
+  }
+
+  .hijo {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    
+    &:nth-child(1) {
+      top: 60px;
+      left: 40%;
+      z-index: 1;
+    }
+
+    &:nth-child(3) {
+      top: 300px;
+      left: 7%;
+      padding: 20px;
+      width: 300px;
+      text-align: left;
+      border-radius: 10px;
+      background-color: rgba(114, 153, 254, 0.5);
+    }
+  }
+}

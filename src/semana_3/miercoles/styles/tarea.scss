@@ -1,0 +1,20 @@
+@import "./global";
+@import "./main";
+@import "./post";
+@import "./media";
+
+.header {
+  grid-area: header;
+  background: rgb(245, 59, 3);
+}
+
+.aside {
+  grid-area: aside;
+  background: rgb(163, 163, 163);
+}
+
+.footer {
+  grid-area: footer;
+  background: rgb(245, 59, 3);
+}
+

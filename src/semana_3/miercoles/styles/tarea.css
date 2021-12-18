@@ -1,14 +1,16 @@
 * {
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 h1 {
-    font-size: 32px;
-    font-weight: 600;
-  }
+  font-size: 32px;
+  font-weight: 600;
+}
+
 h2 {
   font-size: 16px;
   font-weight: 600;
@@ -28,57 +30,55 @@ blockquote {
 }
 
 .wrap {
+  display: -ms-grid;
   display: grid;
   /* background: blueviolet; */
+  -ms-grid-columns: 200px 1fr 200px;
   grid-template-columns: 200px 1fr 200px;
+  -ms-grid-rows: 50px 1fr 50px;
   grid-template-rows: 50px 1fr 50px;
   /* enlasar */
-  grid-template-areas:
-    "header header header"
-    "aside main main"
-    "footer footer footer";
+      grid-template-areas: "header header header" "aside main main" "footer footer footer";
   height: 100vh;
 }
 
-.header {
-  grid-area: header;
-  background: rgb(245, 59, 3);
-}
-
-.aside {
-  grid-area: aside;
-  background: rgb(163, 163, 163);
-}
-
 .main {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 2;
   margin: 10px;
   grid-area: main;
-  background: rgb(224, 224, 224);
+  background: #e0e0e0;
 }
 .main section {
   padding: 30px;
 }
-
 .main .post {
   margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   /* grid-template-columns: repeat(4, 1fr); */
   grid-gap: 20px;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
-
 .main .post article {
   width: 250px;
   padding: 8px;
-  background: rgb(255, 255, 255);
+  background: white;
   /* border: 1px solid rgb(165, 165, 165); */
   border-radius: 5px;
-  box-shadow: 0 0 15px #b1b1b1;
+  -webkit-box-shadow: 0 0 15px #b1b1b1;
+          box-shadow: 0 0 15px #b1b1b1;
 }
 .main .post article:hover {
-  border: 1px solid rgb(170, 170, 170);
-  box-shadow: 0 0 0px #999999;
+  border: 1px solid #aaaaaa;
+  -webkit-box-shadow: 0 0 0px #999999;
+          box-shadow: 0 0 0px #999999;
 }
 
 .post img {
@@ -88,42 +88,46 @@ blockquote {
 }
 
 .post blockquote {
-  align-self: flex-end;
-}
-
-.footer {
-  grid-area: footer;
-  background: rgb(245, 59, 3);
+  -ms-flex-item-align: end;
+      align-self: flex-end;
 }
 
 @media (max-width: 880px) {
   .wrap {
+    display: -ms-grid;
     display: grid;
+    -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
+    -ms-grid-rows: 50px 100px 1fr 50px;
     grid-template-rows: 50px 100px 1fr 50px;
-    grid-template-areas:
-      "header"
-      "aside"
-      "main "
-      "footer";
+        grid-template-areas: "header" "aside" "main " "footer";
     height: 100vh;
   }
+
   .header {
     background: #ffb800;
   }
+
   .aside {
     background: #14d1a4;
   }
+
   h1 {
     font-size: 22px;
     font-weight: 600;
+  }
+  .main {
+    -ms-grid-row: 3;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
   }
 }
 @media (max-width: 600px) {
   .main .post article {
     width: 200px;
   }
-  .h2{
+
+  .h2 {
     font-size: 14px;
   }
 }
@@ -131,15 +135,57 @@ blockquote {
   .header {
     background: #000aff;
   }
+
   .aside {
     background: #7800d7;
   }
+
   .main .post article {
     width: 100%;
     padding: 8px;
-    background: rgb(255, 255, 255);
+    background: white;
     /* border: 1px solid rgb(165, 165, 165); */
     border-radius: 5px;
-    box-shadow: 0 0 15px #b1b1b1;
+    -webkit-box-shadow: 0 0 15px #b1b1b1;
+            box-shadow: 0 0 15px #b1b1b1;
+  }
+}
+.header {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-area: header;
+  background: #f53b03;
+}
+
+.aside {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: aside;
+  background: #a3a3a3;
+}
+
+.footer {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-area: footer;
+  background: #f53b03;
+}
+
+@media (max-width: 880px) {
+  .header {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .aside {
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
+  }
+  .footer {
+    -ms-grid-row: 4;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
   }
 }

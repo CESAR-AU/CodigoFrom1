@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  h1 {
+      font-size: 32px;
+      font-weight: 600;
+    }
+  h2 {
+    font-size: 16px;
+    font-weight: 600;
+  }
+  
+  p {
+    font-size: 12px;
+  }
+  
+  blockquote {
+    font-size: 11px;
+    text-align: center;
+    padding: 3px;
+    margin: 5px 10px;
+    background: khaki;
+    border-radius: 20px;
+  }
+  
+  .wrap {
+    display: grid;
+    /* background: blueviolet; */
+    grid-template-columns: 200px 1fr 200px;
+    grid-template-rows: 50px 1fr 50px;
+    /* enlasar */
+    grid-template-areas:
+      "header header header"
+      "aside main main"
+      "footer footer footer";
+    height: 100vh;
+  }

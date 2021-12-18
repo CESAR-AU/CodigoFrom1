@@ -1,0 +1,50 @@
+body {
+  color: #cdcdcd;
+}
+
+a {
+  font-family: "Arial";
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Verdana";
+}
+
+/*COLORES*/
+/*FUENTES*/
+/*TIPOGRAFIA*/
+/*HEADER*/
+/*COLORES*/
+/*FUENTES*/
+/*TIPOGRAFIA*/
+/*HEADER*/
+.header {
+  padding: 20px;
+  background: red;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.header .logo {
+  font-size: 24px;
+}
+.header .nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.header .nav li {
+  margin-left: 10px;
+}
+.header .nav li:hover {
+  background: blue;
+}
+.header .nav li.is-active {
+  background: rebeccapurple;
+}
+.header .nav:hover {
+  background: black;
+}
+.header .nav-black {
+  background: black;
+}

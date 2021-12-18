@@ -1,0 +1,36 @@
+@import "./_variables.scss";
+.header{
+    padding: $header-padding;
+    background: $color-primary;
+    display: flex;
+    
+    .logo{
+        font-size: $h1;
+    }
+
+    .nav{
+        ul{
+            display: flex;
+        }
+    
+        li{
+            margin-left: 10px;
+    
+            &:hover{
+                background: blue;
+            }
+    
+            &.is-active{
+                background: rebeccapurple;
+            }
+        }
+    
+        &:hover{
+            background: black;
+        }
+    
+        &-black{
+            background: black;
+        }
+    }
+}
