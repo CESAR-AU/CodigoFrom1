@@ -1,0 +1,58 @@
+/*BUTTONS*/
+@import "./variables";
+//BASICA
+.btn{
+    text-decoration: none;
+    text-align: center;
+    font-family: $font__family__btn;
+    min-width: 150px;
+}
+
+//MIXIN
+@mixin sizeBtn($size_btn) {
+    padding: $size_btn;
+}
+
+@mixin roundBtn($round) {
+    border-radius: $round;
+}
+
+@mixin colorBtn($color) {
+    @if($color == success){
+        background: map-get($btn__colors, success);
+        color: white;
+    }
+    @if($color == danger){
+        background: map-get($btn__colors, danger);
+        color: white;
+    }
+    @if($color == warning){
+        background: map-get($btn__colors, warning);
+        color: black;
+    }
+    @if($color == info){
+        background: map-get($btn__colors, info);
+        color: black;
+    }
+}
+
+//VARIANTES de tamaños
+@each $key, $value in $btn__size {
+    .btn__#{$key}{
+        @include sizeBtn($value);
+    }
+}
+
+//VARIANTES de colores
+@each $key, $value in $btn__colors {
+    .btn__#{$key}{
+        @include colorBtn($key);
+    }
+}
+
+//VARIANTES de border radius
+@each $key, $value in $btn__round {
+    .round__#{$key}{
+        @include roundBtn($value);
+    }
+}

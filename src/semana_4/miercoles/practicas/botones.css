@@ -1,0 +1,57 @@
+body {
+    background: #ffffcc;
+    margin: 0;
+    min-height: 100vh;
+
+    display: flex;
+        align-items: center;
+        justify-content: center;
+    
+}
+
+.container {
+    display: flex;
+        justify-content: space-between;
+    padding: 2.5em;
+    width: 800px;
+}
+
+.container a {
+    font-size: 1.5em;
+    margin: .5em;
+    padding: 1em;
+}
+
+.container,
+.container a {
+    background: #efeeee;
+    border-radius: 10px;
+    box-shadow: -6px -6px 16px #fff,
+                6px 6px 16px #d1cdc7;
+}
+
+.container a:active {
+    box-shadow: inset -6px -6px 16px #fff,
+                inset 6px 6px 16px #d1cdc7
+}
+
+.fa-twitter {
+    color: #19a9dd;
+}
+
+.fa-github,
+.fa-codepen , .fa-google {
+    color: #010101;
+}
+
+.fa-linkedin {
+  color: #19a9dd;
+}
+
+.fa-instagram , .fa-dribbble {
+  color:#ff0066;
+}
+
+ .fa-youtube {
+ color: #ff0000;
+}

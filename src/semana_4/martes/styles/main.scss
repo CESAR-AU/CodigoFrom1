@@ -1,0 +1,158 @@
+%layout-basic {
+  background-color: rebeccapurple;
+}
+
+.header {
+  @extend %layout-basic;
+}
+
+.footer {
+  @extend %layout-basic;
+}
+
+$base_url: "https://c-innova.pe";
+
+div {
+  background: url("#{$base_url}/img/img1.png");
+}
+//colores
+
+//listas
+$colors: red, blue, orange;
+$font-size: 12px, 14px, 16px;
+$color-maps: (
+    primary: red,
+    secondery: blue,
+    complementary: orange,
+);
+
+$size-maps: (
+    small: 10px,
+    medium: 12px,
+    large: 16px,
+    xlarge: 18px,
+);
+//breackpoins
+$bp-small: 480px;
+$bp-medium: 540px;
+$bp-large: 680px;
+$bp-xlarge: 1220px;
+$breakpoin:(
+    small: 480px,
+    medium: 540px,
+    large: 680px,
+    xlarge: 1220px,
+);
+/*
+MIXINGS
+*/
+
+@mixin boxRounded($boxwidth, $boxHeigth, $rounded) {
+  width: $boxwidth;
+  height: $boxHeigth;
+  border-radius: $rounded;
+}
+
+@mixin fontSize($font_size: small) {
+    @if($font_size == small){
+        font-size: 10px;
+        line-height: 12px;
+    }
+    @if($font_size == normal){
+        font-size: 12px;
+        line-height: 14px;
+    }
+    @if($font_size == large){
+        font-size: 16px;
+        line-height: 18px;
+    }
+    @if($font_size == xlarge){
+        font-size: 18px;
+        line-height: 20px;
+    }
+}
+
+@mixin breakpoin($poin) {
+    @if($poin == small){
+        @media(max-width: $bp-small){
+            @content;
+        }
+    }
+    @if($poin == medium){
+        @media(max-width: $bp-medium){
+            @content;
+        }
+    }
+    @if($poin == large){
+        @media(max-width: $bp-large){
+            @content;
+        }
+    }
+    @if($poin == xlarge){
+        @media(max-width: $bp-xlarge){
+            @content;
+        }
+    }
+}
+
+@mixin breakpoin2($poin) {
+    @if($poin == small){
+        @media(max-width: map-get($breakpoin, small) ){
+            @content;
+        }
+    }
+    @if($poin == medium){
+        @media(max-width: map-get($breakpoin, medium) ){
+            @content;
+        }
+    }
+    @if($poin == large){
+        @media(max-width: map-get($breakpoin, large) ){
+            @content;
+        }
+    }
+    @if($poin == xlarge){
+        @media(max-width: map-get($breakpoin, xlarge) ){
+            @content;
+        }
+    }
+}
+
+div {
+  @include boxRounded(40px, 40px, 20px);
+  @include fontSize(xlarge);
+}
+
+div {
+  @include boxRounded(60px, 60px, 20px);
+  @include breakpoin(small){
+    @include fontSize(small);
+  }
+}
+
+section {
+    @include boxRounded(60px, 60px, 20px);
+    @include breakpoin2(small){
+      @include fontSize(small);
+    }
+}
+
+section {
+    @include boxRounded(60px, 60px, 20px);
+    @include breakpoin2(large){
+      @include fontSize(large);
+    }
+}
+
+//iterador
+@each $color in $colors {
+    .color-#{$color}{
+        color: $color;
+    }
+}
+
+@each $key, $value in $size-maps {
+    .font-#{$key}{
+        font-size: $value;
+    }
+}

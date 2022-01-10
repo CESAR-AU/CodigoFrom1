@@ -34,25 +34,27 @@ blockquote {
   display: grid;
   /* background: blueviolet; */
   -ms-grid-columns: 200px 1fr 200px;
-  grid-template-columns: 200px 1fr 200px;
+      grid-template-columns: 200px 1fr 200px;
   -ms-grid-rows: 50px 1fr 50px;
-  grid-template-rows: 50px 1fr 50px;
+      grid-template-rows: 50px 1fr 50px;
   /* enlasar */
-      grid-template-areas: "header header header" "aside main main" "footer footer footer";
+      grid-template-areas: "header header header" "aside main main" "footer footer footer";
   height: 100vh;
 }
 
 .main {
+  margin: 10px;
   -ms-grid-row: 2;
   -ms-grid-column: 2;
   -ms-grid-column-span: 2;
-  margin: 10px;
   grid-area: main;
   background: #e0e0e0;
 }
+
 .main section {
   padding: 30px;
 }
+
 .main .post {
   margin-top: 20px;
   display: -webkit-box;
@@ -66,6 +68,7 @@ blockquote {
       -ms-flex-pack: center;
           justify-content: center;
 }
+
 .main .post article {
   width: 250px;
   padding: 8px;
@@ -75,6 +78,7 @@ blockquote {
   -webkit-box-shadow: 0 0 15px #b1b1b1;
           box-shadow: 0 0 15px #b1b1b1;
 }
+
 .main .post article:hover {
   border: 1px solid #aaaaaa;
   -webkit-box-shadow: 0 0 0px #999999;
@@ -97,49 +101,40 @@ blockquote {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 1fr;
-    grid-template-columns: 1fr;
+        grid-template-columns: 1fr;
     -ms-grid-rows: 50px 100px 1fr 50px;
-    grid-template-rows: 50px 100px 1fr 50px;
-        grid-template-areas: "header" "aside" "main " "footer";
+        grid-template-rows: 50px 100px 1fr 50px;
+        grid-template-areas: "header" "aside" "main " "footer";
     height: 100vh;
   }
-
   .header {
     background: #ffb800;
   }
-
   .aside {
     background: #14d1a4;
   }
-
   h1 {
     font-size: 22px;
     font-weight: 600;
   }
-  .main {
-    -ms-grid-row: 3;
-    -ms-grid-column: 1;
-    -ms-grid-column-span: 1;
-  }
 }
+
 @media (max-width: 600px) {
   .main .post article {
     width: 200px;
   }
-
   .h2 {
     font-size: 14px;
   }
 }
+
 @media (max-width: 440px) {
   .header {
     background: #000aff;
   }
-
   .aside {
     background: #7800d7;
   }
-
   .main .post article {
     width: 100%;
     padding: 8px;
@@ -150,6 +145,7 @@ blockquote {
             box-shadow: 0 0 15px #b1b1b1;
   }
 }
+
 .header {
   -ms-grid-row: 1;
   -ms-grid-column: 1;
@@ -172,20 +168,4 @@ blockquote {
   grid-area: footer;
   background: #f53b03;
 }
-
-@media (max-width: 880px) {
-  .header {
-    -ms-grid-row: 1;
-    -ms-grid-column: 1;
-    -ms-grid-column-span: 1;
-  }
-  .aside {
-    -ms-grid-row: 2;
-    -ms-grid-column: 1;
-  }
-  .footer {
-    -ms-grid-row: 4;
-    -ms-grid-column: 1;
-    -ms-grid-column-span: 1;
-  }
-}
+/*# sourceMappingURL=tarea.css.map */

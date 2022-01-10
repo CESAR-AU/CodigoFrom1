@@ -25,26 +25,34 @@ h1, h2, h3, h4, h5, h6 {
   display: -ms-flexbox;
   display: flex;
 }
+
 .header .logo {
   font-size: 24px;
 }
+
 .header .nav ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
+
 .header .nav li {
   margin-left: 10px;
 }
+
 .header .nav li:hover {
   background: blue;
 }
+
 .header .nav li.is-active {
   background: rebeccapurple;
 }
+
 .header .nav:hover {
   background: black;
 }
+
 .header .nav-black {
   background: black;
 }
+/*# sourceMappingURL=main.css.map */

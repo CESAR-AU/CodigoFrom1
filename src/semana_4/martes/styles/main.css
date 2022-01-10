@@ -1,0 +1,86 @@
+.header, .footer {
+  background-color: rebeccapurple;
+}
+
+div {
+  background: url("https://c-innova.pe/img/img1.png");
+}
+
+/*
+MIXINGS
+*/
+div {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+div {
+  width: 60px;
+  height: 60px;
+  border-radius: 20px;
+}
+
+@media (max-width: 480px) {
+  div {
+    font-size: 10px;
+    line-height: 12px;
+  }
+}
+
+section {
+  width: 60px;
+  height: 60px;
+  border-radius: 20px;
+}
+
+@media (max-width: 480px) {
+  section {
+    font-size: 10px;
+    line-height: 12px;
+  }
+}
+
+section {
+  width: 60px;
+  height: 60px;
+  border-radius: 20px;
+}
+
+@media (max-width: 680px) {
+  section {
+    font-size: 16px;
+    line-height: 18px;
+  }
+}
+
+.color-red {
+  color: red;
+}
+
+.color-blue {
+  color: blue;
+}
+
+.color-orange {
+  color: orange;
+}
+
+.font-small {
+  font-size: 10px;
+}
+
+.font-medium {
+  font-size: 12px;
+}
+
+.font-large {
+  font-size: 16px;
+}
+
+.font-xlarge {
+  font-size: 18px;
+}
+/*# sourceMappingURL=main.css.map */

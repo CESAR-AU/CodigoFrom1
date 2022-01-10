@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica</title>
+
+    <style>
+        body {
+            background: #ffffcc;
+            margin: 0;
+            min-height: 100vh;
+
+            flex-direction: column;
+            flex-wrap: wrap;
+            gap: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            padding: 2.5em;
+            width: 900px;
+        }
+        
+        .container a {            
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-decoration: none;
+            font-weight: 200;
+            color: rgb(41, 41, 41);
+            font-size: 1.5em;
+            margin: .5em;
+            padding: 1em;
+            border: 1px solid #e7e7e7;
+        }
+
+        .container,
+        .container a {
+            transition: all 0.5s ease;
+            background: #efeeee;
+            border-radius: 10px;
+            box-shadow: -6px -6px 16px #fff,-6px -6px 16px rgb(255, 255, 255),
+                6px 6px 16px #d1cdc7, 6px 6px 16px #c7c7c7;
+        }
+
+        .container a:active {
+            box-shadow: inset -6px -6px 16px #fff, 1px 1px 1px #c0c0c0,
+                inset 6px 6px 16px #d1cdc7, 1px 1px 1px #d1cdc7
+        }
+        /*sssssssssssssssssssssssssssssssss*/
+        .container2 {
+            display: flex;
+            justify-content: space-between;
+            padding: 2.5em;
+            width: 800px;
+        }
+        
+        .container2 a {            
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-decoration: none;
+            font-weight: 200;
+            color: rgb(41, 41, 41);
+            font-size: 1.5em;
+            margin: .5em;
+            padding: 1em;
+        }
+
+        .container2,
+        .container2 a {
+            transition: all 0.5s ease;
+            background: #efeeee;
+            border-radius: 10px;
+            box-shadow: -6px -6px 16px #fff,-6px -6px 16px rgb(255, 255, 255),
+                6px 6px 16px #d1cdc7, 6px 6px 16px #c7c7c7;
+        }
+
+        .container2 a:active {
+            box-shadow: inset -6px -6px 16px #fff,
+                inset 6px 6px 16px #d1cdc7
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <a href="#">PAGAR</a>
+        <a href="#">COBRAR</a>
+        <a href="#">100</a>
+        <a href="#">...</a>
+        <a href="#">+</a>
+        <a href="#">-</a>
+    </div>
+
+    <div class="container2">
+        <a href="#">PAGAR</a>
+        <a href="#">COBRAR</a>
+        <a href="#">100</a>
+        <a href="#">...</a>
+        <a href="#">+</a>
+    </div>
+</body>
+
+</html>
