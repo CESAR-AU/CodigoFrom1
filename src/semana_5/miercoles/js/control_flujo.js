@@ -24,4 +24,4 @@ function ejemplo3(){
   });
 }
 
-ejemplo3();
+//ejemplo3();
