@@ -48,7 +48,7 @@ function practica() {
             <button class=" bd-highlight rounded-circle btn btn-danger" style="position: absolute; right: -10px; top: -20px;">X</button>
         </div>
         <div class="py-4">
-            <img src="https://picsum.photos/100/100" class="rounded-circle" width="150px">
+            <img src="${dataUser.url_img.value}" class="rounded-circle" width="150px">
         </div>
         <div class="card-body">
           <h2 class="card-title h3"><b>${dataUser.nombre.value} ${dataUser.apellidos.value}</b></h2>
