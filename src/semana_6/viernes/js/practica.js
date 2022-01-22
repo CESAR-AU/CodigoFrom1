@@ -65,6 +65,14 @@ function practica() {
         if(app.querySelectorAll("article").length%2 == 0) card.classList.add("col");
 
         app.appendChild(card);
+
+        dataUser.nombre.value = "";
+        dataUser.apellidos.value = "";
+        dataUser.edad.value = "";
+        dataUser.pais.value = "";
+        dataUser.url_img.value = "";
+        dataUser.correo.value = "";
+        dataUser.comentarios.value = "";
     }
 
     //
