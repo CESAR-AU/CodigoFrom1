@@ -1,0 +1,21 @@
+.percentage {
+    label {
+      font-size: 1.6rem;
+      font-weight: bold;
+      display: block;
+      margin-bottom: 10px;
+    }
+  
+    &__bar {
+      color: #fff;
+      font-weight: bold;
+      background: blue;
+      border-radius: 10px;
+  
+      div {
+        background: green;
+        padding: 10px;
+        border-radius: 10px;
+      }
+    }
+  }

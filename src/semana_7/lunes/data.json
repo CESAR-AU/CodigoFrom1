@@ -1,0 +1,844 @@
+{
+  "persona": {
+    "production": false,
+    "RUC": "20000000000",
+    "name": "NOMBRE LEGAL DE LA EMPRESA SAC",
+    "allowedDocuments": {
+      "01": ["F001"],
+      "03": ["B001"],
+      "07": ["FC01", "BC01"],
+      "08": ["FD01", "BD01"],
+      "D1": ["0001"],
+      "D2": ["0001"],
+      "D3": ["0001"],
+      "D4": ["0001"],
+      "09": ["T001"]
+    },
+    "appConfig": {
+      "dev_mode": false,
+      "default_printFormat": false,
+      "default_itemInput": "text",
+      "default_currency": "PEN",
+      "default_igvAffectation": "10",
+      "default_unitCode": false,
+      "default_issueTime": true,
+      "notes_1000": true,
+      "notes_2001": false,
+      "extra_notes": true,
+      "extra_paymentTerms": true,
+      "extra_aditional_doc_reference": false,
+      "extra_despatch_doc_reference": false,
+      "extra_orderReference": false,
+      "extra_passengers": false,
+      "extra_touring": true,
+      "extra_plate": false,
+      "extra_inputSelector": false
+    },
+    "pdfConfig": {},
+    "billingData": {},
+    "logo": "f2ukpxkoyvtyw2fxowao",
+    "tradename": "EMPRESA DE PRUEBAS",
+    "address": "Dirección fiscal de la empresa - Distrito - Provincia",
+    "description": "Acá van los datos de tu empresa como correo, redes sociales, teléfonos, etc..\n\nPor ejemplo WhatsApp 987654321",
+    "footerMessage": "Este es un mensaje de pie de página. La mayoría pone \"Gracias por su compra!\", pero puedes poner cualquier mensaje.",
+    "NRUS": false,
+    "showUserInDocuments": false,
+    "showLogoInTickets": true,
+    "blockedForDebt": false,
+    "isAnnex": false,
+    "ownerId": "5f30f8575bd8620017c435a8",
+    "id": "5fedeb4ec5dec90017c56189",
+    "users": [
+      {
+        "type": "dev",
+        "userId": "5f3c4147bfd9c500172fdd92",
+        "personaId": "5fedeb4ec5dec90017c56189",
+        "id": "6186b78fb99e7300181b4b98"
+      },
+      {
+        "type": "dev",
+        "userId": "5f30f8575bd8620017c435a8",
+        "personaId": "5fedeb4ec5dec90017c56189",
+        "id": "618c0b5df366b90018610cc8"
+      },
+      {
+        "type": "dev",
+        "userId": "61c917b5b9759700182b2bbc",
+        "personaId": "5fedeb4ec5dec90017c56189",
+        "id": "61c917b5b9759700182b2bbd"
+      },
+      {
+        "type": "dev",
+        "userId": "61e5805a9732a000181a3f4c",
+        "personaId": "5fedeb4ec5dec90017c56189",
+        "id": "61e5805a9732a000181a3f4d"
+      },
+      {
+        "type": "dev",
+        "userId": "61e588329732a000181a3f96",
+        "personaId": "5fedeb4ec5dec90017c56189",
+        "id": "61e588329732a000181a3f97"
+      },
+      {
+        "type": "dev",
+        "userId": "61e592ee9732a000181a401c",
+        "personaId": "5fedeb4ec5dec90017c56189",
+        "id": "61e592ee9732a000181a401d"
+      },
+      {
+        "type": "dev",
+        "userId": "61e5b3919732a000181a41ae",
+        "personaId": "5fedeb4ec5dec90017c56189",
+        "id": "61e5b3919732a000181a41af"
+      },
+      {
+        "type": "dev",
+        "userId": "61e5c71b9732a000181a426c",
+        "personaId": "5fedeb4ec5dec90017c56189",
+        "id": "61e5c71b9732a000181a426d"
+      },
+      {
+        "type": "dev",
+        "userId": "61e5ca1a9732a000181a428a",
+        "personaId": "5fedeb4ec5dec90017c56189",
+        "id": "61e5ca1a9732a000181a428b"
+      },
+      {
+        "type": "dev",
+        "userId": "61e5ca9d9732a000181a4292",
+        "personaId": "5fedeb4ec5dec90017c56189",
+        "id": "61e5ca9d9732a000181a4293"
+      },
+      {
+        "type": "dev",
+        "userId": "61e5cf6d9732a000181a42d4",
+        "personaId": "5fedeb4ec5dec90017c56189",
+        "id": "61e5cf6d9732a000181a42d5"
+      },
+      {
+        "type": "dev",
+        "userId": "61e5dec49732a000181a46c7",
+        "personaId": "5fedeb4ec5dec90017c56189",
+        "id": "61e5dec49732a000181a46c8"
+      },
+      {
+        "type": "dev",
+        "userId": "61e5ded59732a000181a46ca",
+        "personaId": "5fedeb4ec5dec90017c56189",
+        "id": "61e5ded69732a000181a46cb"
+      },
+      {
+        "type": "dev",
+        "userId": "61e5e7dd9732a000181a4746",
+        "personaId": "5fedeb4ec5dec90017c56189",
+        "id": "61e5e7dd9732a000181a4747"
+      },
+      {
+        "type": "dev",
+        "userId": "61e5e83f9732a000181a4750",
+        "personaId": "5fedeb4ec5dec90017c56189",
+        "id": "61e5e83f9732a000181a4751"
+      },
+      {
+        "type": "dev",
+        "userId": "61e5ece907e8070018150257",
+        "personaId": "5fedeb4ec5dec90017c56189",
+        "id": "61e5ece907e8070018150258"
+      },
+      {
+        "type": "dev",
+        "userId": "61e605cd07e8070018150371",
+        "personaId": "5fedeb4ec5dec90017c56189",
+        "id": "61e605cd07e8070018150372"
+      },
+      {
+        "type": "dev",
+        "userId": "61e60e5607e80700181503cd",
+        "personaId": "5fedeb4ec5dec90017c56189",
+        "id": "61e60e5607e80700181503ce"
+      },
+      {
+        "type": "dev",
+        "userId": "61e621d407e8070018150435",
+        "personaId": "5fedeb4ec5dec90017c56189",
+        "id": "61e621d407e8070018150436"
+      },
+      {
+        "type": "dev",
+        "userId": "61e6377607e8070018150472",
+        "personaId": "5fedeb4ec5dec90017c56189",
+        "id": "61e6377607e8070018150473"
+      },
+      {
+        "type": "dev",
+        "userId": "61e63ce807e807001815049a",
+        "personaId": "5fedeb4ec5dec90017c56189",
+        "id": "61e63ce807e807001815049b"
+      },
+      {
+        "type": "dev",
+        "userId": "61e6446207e80700181504c3",
+        "personaId": "5fedeb4ec5dec90017c56189",
+        "id": "61e6446307e80700181504c4"
+      },
+      {
+        "type": "dev",
+        "userId": "61e64be907e80700181504df",
+        "personaId": "5fedeb4ec5dec90017c56189",
+        "id": "61e64be907e80700181504e0"
+      },
+      {
+        "type": "dev",
+        "userId": "61e68aac07e80700181504eb",
+        "personaId": "5fedeb4ec5dec90017c56189",
+        "id": "61e68aac07e80700181504ec"
+      },
+      {
+        "type": "dev",
+        "userId": "61e6983f07e80700181504f2",
+        "personaId": "5fedeb4ec5dec90017c56189",
+        "id": "61e6983f07e80700181504f3"
+      },
+      {
+        "type": "dev",
+        "userId": "61e6be5507e8070018150526",
+        "personaId": "5fedeb4ec5dec90017c56189",
+        "id": "61e6be5507e8070018150527"
+      },
+      {
+        "type": "dev",
+        "userId": "61e6d6c507e807001815061f",
+        "personaId": "5fedeb4ec5dec90017c56189",
+        "id": "61e6d6c507e8070018150620"
+      },
+      {
+        "type": "dev",
+        "userId": "61e6e12c07e8070018150690",
+        "personaId": "5fedeb4ec5dec90017c56189",
+        "id": "61e6e12c07e8070018150691"
+      },
+      {
+        "type": "dev",
+        "userId": "61e6ef8e07e807001815075f",
+        "personaId": "5fedeb4ec5dec90017c56189",
+        "id": "61e6ef8e07e8070018150760"
+      },
+      {
+        "type": "dev",
+        "userId": "61e6fbe307e80700181507fe",
+        "personaId": "5fedeb4ec5dec90017c56189",
+        "id": "61e6fbe307e80700181507ff"
+      },
+      {
+        "type": "dev",
+        "userId": "61e6fdf907e807001815081d",
+        "personaId": "5fedeb4ec5dec90017c56189",
+        "id": "61e6fdf907e807001815081e"
+      },
+      {
+        "type": "dev",
+        "userId": "61e7016f07e8070018150846",
+        "personaId": "5fedeb4ec5dec90017c56189",
+        "id": "61e7016f07e8070018150847"
+      },
+      {
+        "type": "dev",
+        "userId": "61e7044e07e807001815085f",
+        "personaId": "5fedeb4ec5dec90017c56189",
+        "id": "61e7044e07e8070018150860"
+      },
+      {
+        "type": "dev",
+        "userId": "61e707b107e8070018150887",
+        "personaId": "5fedeb4ec5dec90017c56189",
+        "id": "61e707b107e8070018150888"
+      },
+      {
+        "type": "dev",
+        "userId": "61e70dde07e80700181508c5",
+        "personaId": "5fedeb4ec5dec90017c56189",
+        "id": "61e70dde07e80700181508c6"
+      },
+      {
+        "type": "dev",
+        "userId": "61e7104b07e80700181508e4",
+        "personaId": "5fedeb4ec5dec90017c56189",
+        "id": "61e7104c07e80700181508e5"
+      },
+      {
+        "type": "dev",
+        "userId": "61e717e107e8070018150921",
+        "personaId": "5fedeb4ec5dec90017c56189",
+        "id": "61e717e107e8070018150922"
+      },
+      {
+        "type": "dev",
+        "userId": "61e7273607e80700181509e4",
+        "personaId": "5fedeb4ec5dec90017c56189",
+        "id": "61e7273607e80700181509e5"
+      },
+      {
+        "type": "dev",
+        "userId": "61e737fa07e8070018150aa4",
+        "personaId": "5fedeb4ec5dec90017c56189",
+        "id": "61e737fa07e8070018150aa5"
+      },
+      {
+        "type": "dev",
+        "userId": "61e73bdc07e8070018150ace",
+        "personaId": "5fedeb4ec5dec90017c56189",
+        "id": "61e73bdc07e8070018150acf"
+      },
+      {
+        "type": "dev",
+        "userId": "61e7405307e8070018150b03",
+        "personaId": "5fedeb4ec5dec90017c56189",
+        "id": "61e7405307e8070018150b04"
+      },
+      {
+        "type": "dev",
+        "userId": "61e7444467657800181e24f0",
+        "personaId": "5fedeb4ec5dec90017c56189",
+        "id": "61e7444467657800181e24f1"
+      },
+      {
+        "type": "dev",
+        "userId": "61e74a7a67657800181e252d",
+        "personaId": "5fedeb4ec5dec90017c56189",
+        "id": "61e74a7a67657800181e252e"
+      },
+      {
+        "type": "dev",
+        "userId": "61e74eea67657800181e2567",
+        "personaId": "5fedeb4ec5dec90017c56189",
+        "id": "61e74eea67657800181e2568"
+      },
+      {
+        "type": "dev",
+        "userId": "61e75f1a67657800181e2625",
+        "personaId": "5fedeb4ec5dec90017c56189",
+        "id": "61e75f1a67657800181e2626"
+      },
+      {
+        "type": "dev",
+        "userId": "61e76b8067657800181e267c",
+        "personaId": "5fedeb4ec5dec90017c56189",
+        "id": "61e76b8067657800181e267d"
+      },
+      {
+        "type": "dev",
+        "userId": "61e7756f67657800181e26a7",
+        "personaId": "5fedeb4ec5dec90017c56189",
+        "id": "61e7756f67657800181e26a8"
+      },
+      {
+        "type": "dev",
+        "userId": "61e795bc67657800181e270c",
+        "personaId": "5fedeb4ec5dec90017c56189",
+        "id": "61e795bc67657800181e270d"
+      },
+      {
+        "type": "dev",
+        "userId": "61e80be767657800181e275d",
+        "personaId": "5fedeb4ec5dec90017c56189",
+        "id": "61e80be767657800181e275e"
+      },
+      {
+        "type": "dev",
+        "userId": "61e82acc67657800181e2889",
+        "personaId": "5fedeb4ec5dec90017c56189",
+        "id": "61e82acc67657800181e288b"
+      },
+      {
+        "type": "dev",
+        "userId": "61e8365567657800181e2949",
+        "personaId": "5fedeb4ec5dec90017c56189",
+        "id": "61e8365567657800181e294a"
+      },
+      {
+        "type": "dev",
+        "userId": "61e838b867657800181e29f4",
+        "personaId": "5fedeb4ec5dec90017c56189",
+        "id": "61e838b867657800181e29f5"
+      },
+      {
+        "type": "dev",
+        "userId": "61e8409c67657800181e2a83",
+        "personaId": "5fedeb4ec5dec90017c56189",
+        "id": "61e8409c67657800181e2a84"
+      },
+      {
+        "type": "dev",
+        "userId": "61e8481467657800181e2aef",
+        "personaId": "5fedeb4ec5dec90017c56189",
+        "id": "61e8481467657800181e2af0"
+      },
+      {
+        "type": "dev",
+        "userId": "61e84e2267657800181e2b37",
+        "personaId": "5fedeb4ec5dec90017c56189",
+        "id": "61e84e2267657800181e2b38"
+      },
+      {
+        "type": "dev",
+        "userId": "61e8553a67657800181e2b88",
+        "personaId": "5fedeb4ec5dec90017c56189",
+        "id": "61e8553a67657800181e2b89"
+      },
+      {
+        "type": "dev",
+        "userId": "61e8584f67657800181e2bbb",
+        "personaId": "5fedeb4ec5dec90017c56189",
+        "id": "61e8584f67657800181e2bbc"
+      },
+      {
+        "type": "dev",
+        "userId": "61e88bc867657800181e2e98",
+        "personaId": "5fedeb4ec5dec90017c56189",
+        "id": "61e88bc867657800181e2e99"
+      },
+      {
+        "type": "dev",
+        "userId": "61e895ac67657800181e2f2e",
+        "personaId": "5fedeb4ec5dec90017c56189",
+        "id": "61e895ac67657800181e2f2f"
+      },
+      {
+        "type": "dev",
+        "userId": "61e8989b18ca670018ceba02",
+        "personaId": "5fedeb4ec5dec90017c56189",
+        "id": "61e8989b18ca670018ceba03"
+      },
+      {
+        "type": "dev",
+        "userId": "61e8a1f318ca670018ceba4d",
+        "personaId": "5fedeb4ec5dec90017c56189",
+        "id": "61e8a1f318ca670018ceba4e"
+      },
+      {
+        "type": "dev",
+        "userId": "61e8ad98affc1d0018bfe896",
+        "personaId": "5fedeb4ec5dec90017c56189",
+        "id": "61e8ad98affc1d0018bfe897"
+      },
+      {
+        "type": "dev",
+        "userId": "61e8af89affc1d0018bfe8a8",
+        "personaId": "5fedeb4ec5dec90017c56189",
+        "id": "61e8af89affc1d0018bfe8a9"
+      },
+      {
+        "type": "dev",
+        "userId": "61e882be67657800181e2dfc",
+        "personaId": "5fedeb4ec5dec90017c56189",
+        "id": "61e8b764affc1d0018bfe8cc"
+      },
+      {
+        "type": "dev",
+        "userId": "61e8bf82affc1d0018bfe8fc",
+        "personaId": "5fedeb4ec5dec90017c56189",
+        "id": "61e8bf82affc1d0018bfe8fd"
+      },
+      {
+        "type": "dev",
+        "userId": "61e8dba8affc1d0018bfe95d",
+        "personaId": "5fedeb4ec5dec90017c56189",
+        "id": "61e8dba8affc1d0018bfe95e"
+      },
+      {
+        "type": "dev",
+        "userId": "61e95e81affc1d0018bfe9ca",
+        "personaId": "5fedeb4ec5dec90017c56189",
+        "id": "61e95e82affc1d0018bfe9cb"
+      },
+      {
+        "type": "dev",
+        "userId": "61e96474affc1d0018bfe9e3",
+        "personaId": "5fedeb4ec5dec90017c56189",
+        "id": "61e96474affc1d0018bfe9e4"
+      },
+      {
+        "type": "dev",
+        "userId": "61e9710caffc1d0018bfea28",
+        "personaId": "5fedeb4ec5dec90017c56189",
+        "id": "61e9710caffc1d0018bfea29"
+      },
+      {
+        "type": "dev",
+        "userId": "61e97648affc1d0018bfea5b",
+        "personaId": "5fedeb4ec5dec90017c56189",
+        "id": "61e97648affc1d0018bfea5c"
+      },
+      {
+        "type": "dev",
+        "userId": "61e97b88affc1d0018bfea81",
+        "personaId": "5fedeb4ec5dec90017c56189",
+        "id": "61e97b88affc1d0018bfea82"
+      },
+      {
+        "type": "dev",
+        "userId": "61e982b9affc1d0018bfeacc",
+        "personaId": "5fedeb4ec5dec90017c56189",
+        "id": "61e982b9affc1d0018bfeacd"
+      },
+      {
+        "type": "dev",
+        "userId": "61e995f1affc1d0018bfeb92",
+        "personaId": "5fedeb4ec5dec90017c56189",
+        "id": "61e995f1affc1d0018bfeb93"
+      },
+      {
+        "type": "dev",
+        "userId": "61e9ab0eaffc1d0018bfec98",
+        "personaId": "5fedeb4ec5dec90017c56189",
+        "id": "61e9ab0eaffc1d0018bfec99"
+      },
+      {
+        "type": "dev",
+        "userId": "61e9bc50affc1d0018bfed6e",
+        "personaId": "5fedeb4ec5dec90017c56189",
+        "id": "61e9bc50affc1d0018bfed6f"
+      },
+      {
+        "type": "dev",
+        "userId": "61e9d030affc1d0018bff369",
+        "personaId": "5fedeb4ec5dec90017c56189",
+        "id": "61e9d030affc1d0018bff36a"
+      },
+      {
+        "type": "dev",
+        "userId": "61e9da29affc1d0018bff3ef",
+        "personaId": "5fedeb4ec5dec90017c56189",
+        "id": "61e9da2aaffc1d0018bff3f0"
+      },
+      {
+        "type": "dev",
+        "userId": "61e9f0c0affc1d0018bff4f2",
+        "personaId": "5fedeb4ec5dec90017c56189",
+        "id": "61e9f0c0affc1d0018bff4f3"
+      },
+      {
+        "type": "dev",
+        "userId": "61ea02dac5bd3300181d5538",
+        "personaId": "5fedeb4ec5dec90017c56189",
+        "id": "61ea02dac5bd3300181d5539"
+      },
+      {
+        "type": "dev",
+        "userId": "61ea09bcc5bd3300181d557e",
+        "personaId": "5fedeb4ec5dec90017c56189",
+        "id": "61ea09bcc5bd3300181d557f"
+      },
+      {
+        "type": "dev",
+        "userId": "61ea3660c5bd3300181d561e",
+        "personaId": "5fedeb4ec5dec90017c56189",
+        "id": "61ea3660c5bd3300181d561f"
+      },
+      {
+        "type": "dev",
+        "userId": "61ead0efc5bd3300181d573b",
+        "personaId": "5fedeb4ec5dec90017c56189",
+        "id": "61ead0efc5bd3300181d573c"
+      },
+      {
+        "type": "dev",
+        "userId": "61ead53bc5bd3300181d576a",
+        "personaId": "5fedeb4ec5dec90017c56189",
+        "id": "61ead53bc5bd3300181d576b"
+      },
+      {
+        "type": "dev",
+        "userId": "61ead6edc5bd3300181d5789",
+        "personaId": "5fedeb4ec5dec90017c56189",
+        "id": "61ead6edc5bd3300181d578a"
+      },
+      {
+        "type": "dev",
+        "userId": "61eae3a7c5bd3300181d5832",
+        "personaId": "5fedeb4ec5dec90017c56189",
+        "id": "61eae3a7c5bd3300181d5833"
+      },
+      {
+        "type": "dev",
+        "userId": "61eaea18c5bd3300181d58a7",
+        "personaId": "5fedeb4ec5dec90017c56189",
+        "id": "61eaea18c5bd3300181d58a8"
+      },
+      {
+        "type": "dev",
+        "userId": "61eaf103c5bd3300181d5901",
+        "personaId": "5fedeb4ec5dec90017c56189",
+        "id": "61eaf104c5bd3300181d5902"
+      },
+      {
+        "type": "dev",
+        "userId": "61eafbb4c5bd3300181d5964",
+        "personaId": "5fedeb4ec5dec90017c56189",
+        "id": "61eafbb4c5bd3300181d5965"
+      },
+      {
+        "type": "dev",
+        "userId": "61eb00cdc5bd3300181d59a3",
+        "personaId": "5fedeb4ec5dec90017c56189",
+        "id": "61eb00cdc5bd3300181d59a4"
+      },
+      {
+        "type": "dev",
+        "userId": "61eb1d06c5bd3300181d5fca",
+        "personaId": "5fedeb4ec5dec90017c56189",
+        "id": "61eb1d06c5bd3300181d5fcb"
+      },
+      {
+        "type": "dev",
+        "userId": "61eb4a55c5bd3300181d61fa",
+        "personaId": "5fedeb4ec5dec90017c56189",
+        "id": "61eb4a56c5bd3300181d61fb"
+      },
+      {
+        "type": "dev",
+        "userId": "61eb739751e0da00187d6b3e",
+        "personaId": "5fedeb4ec5dec90017c56189",
+        "id": "61eb739751e0da00187d6b3f"
+      },
+      {
+        "type": "dev",
+        "userId": "61ebe79751e0da00187d6b90",
+        "personaId": "5fedeb4ec5dec90017c56189",
+        "id": "61ebe79751e0da00187d6b91"
+      },
+      {
+        "type": "dev",
+        "userId": "61ec324c51e0da00187d6d43",
+        "personaId": "5fedeb4ec5dec90017c56189",
+        "id": "61ec324c51e0da00187d6d44"
+      },
+      {
+        "type": "dev",
+        "userId": "61ec374451e0da00187d6d7e",
+        "personaId": "5fedeb4ec5dec90017c56189",
+        "id": "61ec374451e0da00187d6d7f"
+      },
+      {
+        "type": "dev",
+        "userId": "61ec391651e0da00187d6d97",
+        "personaId": "5fedeb4ec5dec90017c56189",
+        "id": "61ec391651e0da00187d6d98"
+      },
+      {
+        "type": "dev",
+        "userId": "61ec427851e0da00187d6dfc",
+        "personaId": "5fedeb4ec5dec90017c56189",
+        "id": "61ec427851e0da00187d6dfd"
+      },
+      {
+        "type": "dev",
+        "userId": "61ec7d5951e0da00187d70aa",
+        "personaId": "5fedeb4ec5dec90017c56189",
+        "id": "61ec7d5951e0da00187d70ab"
+      },
+      {
+        "type": "dev",
+        "userId": "61edb610a49bba001809846d",
+        "personaId": "5fedeb4ec5dec90017c56189",
+        "id": "61edb610a49bba001809846e"
+      },
+      {
+        "type": "dev",
+        "userId": "61edb671a49bba0018098471",
+        "personaId": "5fedeb4ec5dec90017c56189",
+        "id": "61edb671a49bba0018098472"
+      },
+      {
+        "type": "dev",
+        "userId": "61edff3f3c14df001886361e",
+        "personaId": "5fedeb4ec5dec90017c56189",
+        "id": "61edff3f3c14df001886361f"
+      },
+      {
+        "type": "dev",
+        "userId": "61ee0e6a3c14df0018863653",
+        "personaId": "5fedeb4ec5dec90017c56189",
+        "id": "61ee0e6a3c14df0018863654"
+      },
+      {
+        "type": "dev",
+        "userId": "61ee83c9c30e880016fc0ba6",
+        "personaId": "5fedeb4ec5dec90017c56189",
+        "id": "61ee83c9c30e880016fc0ba7"
+      },
+      {
+        "type": "dev",
+        "userId": "61eec8a7c30e880016fc0cbe",
+        "personaId": "5fedeb4ec5dec90017c56189",
+        "id": "61eec8a7c30e880016fc0cbf"
+      },
+      {
+        "type": "dev",
+        "userId": "61eed04fc30e880016fc0d38",
+        "personaId": "5fedeb4ec5dec90017c56189",
+        "id": "61eed04fc30e880016fc0d39"
+      },
+      {
+        "type": "dev",
+        "userId": "61eee0abc30e880016fc0e2b",
+        "personaId": "5fedeb4ec5dec90017c56189",
+        "id": "61eee0abc30e880016fc0e2c"
+      },
+      {
+        "type": "dev",
+        "userId": "61eef12cc30e880016fc0ee2",
+        "personaId": "5fedeb4ec5dec90017c56189",
+        "id": "61eef12cc30e880016fc0ee3"
+      },
+      {
+        "type": "dev",
+        "userId": "61eefcf9c30e880016fc0fbf",
+        "personaId": "5fedeb4ec5dec90017c56189",
+        "id": "61eefcf9c30e880016fc0fc0"
+      },
+      {
+        "type": "dev",
+        "userId": "61ef07b4c30e880016fc103b",
+        "personaId": "5fedeb4ec5dec90017c56189",
+        "id": "61ef07b4c30e880016fc103c"
+      },
+      {
+        "type": "dev",
+        "userId": "61ef10d2c30e880016fc10b5",
+        "personaId": "5fedeb4ec5dec90017c56189",
+        "id": "61ef10d2c30e880016fc10b6"
+      },
+      {
+        "type": "dev",
+        "userId": "61ef1f26c30e880016fc1150",
+        "personaId": "5fedeb4ec5dec90017c56189",
+        "id": "61ef1f26c30e880016fc1151"
+      },
+      {
+        "type": "dev",
+        "userId": "61ef23cbc30e880016fc1182",
+        "personaId": "5fedeb4ec5dec90017c56189",
+        "id": "61ef23cbc30e880016fc1183"
+      },
+      {
+        "type": "dev",
+        "userId": "61ef40bfc30e880016fc12f2",
+        "personaId": "5fedeb4ec5dec90017c56189",
+        "id": "61ef40bfc30e880016fc12f3"
+      },
+      {
+        "type": "dev",
+        "userId": "61ef4860c30e880016fc1336",
+        "personaId": "5fedeb4ec5dec90017c56189",
+        "id": "61ef4860c30e880016fc1337"
+      }
+    ]
+  },
+  "acl": {
+    "type": "dev",
+    "userId": "61ef4860c30e880016fc1336",
+    "personaId": "5fedeb4ec5dec90017c56189",
+    "id": "61ef4860c30e880016fc1337"
+  },
+  "count": 20,
+  "data": [
+    {
+      "code": "HABITACION 3",
+      "unitCode": "ZZ",
+      "description": "HABITACION X 3",
+      "value": "250",
+      "igvType": "20",
+      "icbper": false,
+      "personaId": "5fedeb4ec5dec90017c56189",
+      "id": "61ef4afcc30e880016fc1354"
+    },
+    {
+      "unitCode": "NIU",
+      "description": "ACEITE SHELL ROJO 20W50",
+      "value": "20",
+      "igvType": "20",
+      "icbper": false,
+      "personaId": "5fedeb4ec5dec90017c56189",
+      "id": "61ee26c5c30e880016fc0ba0"
+    },
+    {
+      "unitCode": "NIU",
+      "description": "ACEITE MOTUL 3000",
+      "value": "25",
+      "igvType": "20",
+      "icbper": false,
+      "personaId": "5fedeb4ec5dec90017c56189",
+      "id": "61ee26c5c30e880016fc0b9d"
+    },
+    {
+      "code": "0",
+      "unitCode": "ZZ",
+      "description": "Menu",
+      "value": "10",
+      "igvType": "10",
+      "icbper": false,
+      "personaId": "5fedeb4ec5dec90017c56189",
+      "id": "61edc28aa49bba0018098492"
+    },
+    {
+      "code": "HABITACION 1",
+      "unitCode": "ZZ",
+      "description": "HABITACION SIMPLE P/NOCHE",
+      "value": "50.8474576271",
+      "igvType": "10",
+      "icbper": false,
+      "personaId": "5fedeb4ec5dec90017c56189",
+      "id": "61e9e6beaffc1d0018bff494"
+    },
+    {
+      "unitCode": "NIU",
+      "description": "Cerveza Pilsen",
+      "value": "50",
+      "igvType": "10",
+      "icbper": false,
+      "personaId": "5fedeb4ec5dec90017c56189",
+      "id": "61e8c037affc1d0018bfe902"
+    },
+    {
+      "code": "HABITACION 1",
+      "unitCode": "ZZ",
+      "description": "HABITACION SIMPLE P/NOCHE",
+      "value": "67.797",
+      "igvType": "10",
+      "icbper": false,
+      "personaId": "5fedeb4ec5dec90017c56189",
+      "id": "61e8978267657800181e2f41"
+    },
+    {
+      "code": "",
+      "unitCode": "ZZ",
+      "description": "TINTE DE PELO",
+      "value": "84.746",
+      "igvType": "10",
+      "icbper": false,
+      "personaId": "5fedeb4ec5dec90017c56189",
+      "id": "61e8938c67657800181e2f16"
+    },
+    {
+      "code": "SERVICIO DE COURIER",
+      "unitCode": "ZZ",
+      "description": "SERVICIO DE COURIER",
+      "value": "84.746",
+      "igvType": "10",
+      "icbper": false,
+      "personaId": "5fedeb4ec5dec90017c56189",
+      "id": "61e859cd67657800181e2bd2"
+    },
+    {
+      "code": "000102",
+      "unitCode": "NIU",
+      "description": "PLACA GYPLAC DE 3/8",
+      "value": "24.5762711864",
+      "igvType": "10",
+      "icbper": false,
+      "personaId": "5fedeb4ec5dec90017c56189",
+      "id": "61e73c4c07e8070018150ad5"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+.card {
+    border: 1px solid #cdcdcd;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+  
+    &:hover {
+      box-shadow: 0 0 10px rgb(182, 182, 182);
+    }
+  
+    &__figure {
+      img {
+        width: 100%;
+        border-radius: 10px;
+      }
+    }
+  
+    &__text {
+      padding: 20px;
+    }
+  
+    h2 {
+      font-size: 1.2rem;
+      font-weight: bold;
+    }
+  }
+  

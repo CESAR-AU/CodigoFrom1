@@ -1,0 +1,21 @@
+@import "../../assets/style/variables";
+
+.nav{
+    ul{
+        display: flex;
+
+        li{
+            list-style: none;
+        }
+
+        a{
+            text-decoration: none;
+            padding: 10px;
+            color: black;
+            
+            &:hover, &.is-active{
+                background: map-get($colors-branding, "secondary");
+            }
+        }
+    }
+}

@@ -1,0 +1,12 @@
+@import "../../assets/style/variables";
+
+.footer {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  font-size: 1.4rem;
+  font-weight:bold;
+  color:#fff;
+  background: map-get($colors-branding, 'primary');
+}

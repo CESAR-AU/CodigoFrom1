@@ -1,0 +1,11 @@
+.page-contacto {
+    input, select{
+        @apply py-2;
+        @apply px-3;
+        @apply border;
+        @apply border-gray-500;
+        @apply rounded-lg;
+        @apply focus:outline-none;
+        @apply focus:border-red-700;
+    }
+}
